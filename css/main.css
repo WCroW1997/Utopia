@@ -417,6 +417,7 @@ h1{
 
     .nav__list{
         display: block;
+        max-width: 350px;
     }
     
     .nav__item{
@@ -457,7 +458,44 @@ h1{
       h1{
         font-size: 42px;
       }
+      
+      .first__list{
+          padding-left: 30px;
+      }
 }
+
+@media screen and (max-width: 375px){
+    .img__2{
+        width: 300px;
+        height: 300px;
+    }
+    .logo__bg {
+        position: absolute;
+        background: url(/img/BG-logo.png) no-repeat -115px 45px;
+        z-index: -1;
+        width: 280px;
+        height: 200px;
+    }
+
+    .right__block__title{
+        font-size: 28px;
+    }
+
+    .right__block__clock{
+        font-size: 22px;
+    }
+
+    .right__block__subtext{
+        font-size: 18px;
+    }
+
+    .right__block img {
+        width: 80px;
+        display: block;
+        margin-left: 15px;
+    }
+}
+
 
 
 /* style for after.html */
